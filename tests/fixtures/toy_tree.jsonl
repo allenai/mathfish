@@ -1,0 +1,13 @@
+{"id": "K.CC", "description": "Counting & Cardinality", "level": "Domain", "parent": "K", "children": ["K.CC.B", "K.CC.C", "K.CC.A"], "modeling": false}
+{"id": "K.CC.A", "description": "descript of k.cc.a", "level": "Cluster", "parent": "K.CC", "children": ["K.CC.A.3", "K.CC.A.1", "K.CC.A.2"], "modeling": false}
+{"id": "K.CC.A.1", "description": "descript of k.cc.a.1", "level": "Standard", "parent": "K.CC.A", "children": [], "modeling": false}
+{"id": "K.CC.A.2", "description": "descript of k.cc.a.2", "level": "Standard", "parent": "K.CC.A", "children": [], "modeling": false}
+{"id": "K.CC.A.3", "description": "descript of k.cc.a.3", "level": "Standard", "parent": "K.CC.A", "children": [], "modeling": false}
+{"id": "K.CC.B", "description": "descript of k.cc.b", "level": "Cluster", "parent": "K.CC", "children": ["K.CC.B.1", "K.CC.B.2"], "modeling": false}
+{"id": "K.CC.B.1", "description": "descript of k.cc.b.1", "level": "Standard", "parent": "K.CC.B", "children": [], "modeling": false}
+{"id": "K.CC.B.2", "description": "descript of k.cc.b.2", "level": "Standard", "parent": "K.CC.B", "children": [], "modeling": false}
+{"id": "1.G", "description": "Geometry", "level": "Domain", "parent": "1", "children": ["1.G.A", "1.G.B"], "modeling": false}
+{"id": "1.G.A", "description": "circles", "level": "Cluster", "parent": "1.G", "children": ["1.G.A.1", "1.G.A.2"], "modeling": false}
+{"id": "1.G.B", "description": "squares", "level": "Cluster", "parent": "1.G", "children": ["1.G.B.1", "1.G.B.2"], "modeling": false}
+{"id": "2.G", "description": "Geometry", "level": "Domain", "parent": "2", "children": ["2.G.A"], "modeling": false}
+{"id": "2.G.A", "description": "circles", "level": "Cluster", "parent": "2.G", "children": ["2.G.A.1", "2.G.A.2"], "modeling": false}

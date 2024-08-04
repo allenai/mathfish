@@ -1,0 +1,24 @@
+{
+    "verification": {"Promptv1": 
+        {
+            "date":"03-20-24","responseTemplate":"{aligns}",
+            "promptTemplate": "You are a math expert reviewing K-12 curricular materials. You will be shown a problem or activity obtained from school curriculum and a description of mathematical concepts and skills. Your task is to determine whether the problem or activity can enable students to learn the full intent of the concepts and skills outlined in the provided description. Answer 'yes' if it does, and 'no' if it does not.\n\nProblem/activity:\n{problem_activity}\n\nDescription:\n{standard_description}"
+        }
+    },
+    "tagging": {
+        "Promptv1": 
+        {
+            "date":"04-01-24", "responseTemplate": "{option}", 
+            "promptTemplate": {
+                "body": "assign the problem or activity to one or more relevant {level} it {relation}, and format your output as a comma-separated list of options e.g. \"A, B, C\". {relation_definition} Output \"none\" if none of the {level} below are relevant. DO NOT make up additional {level}.",
+                "relation_definition": {
+                    "standard": "A problem or activity aligns with a standard if it can enable students to learn the full intent of the concepts and skills outlined in the standard's description.",
+                    "domain": "",
+                    "cluster": ""
+                },
+                "single_wrap": "You are a math expert reviewing K-12 curricular materials. You will be shown a problem or activity obtained from school curriculum and a list of one or more {level}. Your task is to {body}\n\nProblem/activity:\n{problem_activity}\n\n{Level} options:\n{options}",
+                "multi_wrap": "Now, {body}\n\n{Level} options:\n{options}"
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{"id": "S-IC.B.3", "level": "Standard", "parent": "S-IC.B", "children": [], "connections": {"progress to": ["S-IC.B.6"], "progress from": [], "related": []}}
+{"id": "S-IC.B.4", "level": "Standard", "parent": "S-IC.B", "children": [], "connections": {"progress to": ["S-IC.B.6"], "progress from": [], "related": []}}
+{"id": "S-IC.B.5", "level": "Standard", "parent": "S-IC.B", "children": [], "connections": {"progress to": ["S-IC.B.6"], "progress from": [], "related": []}}
+{"id": "S-IC.B.6", "level": "Standard", "parent": "S-IC.B", "children": [], "connections": {"progress to": [], "progress from": ["S-IC.B.3", "S-IC.B.4", "S-IC.B.5"], "related": ["S-ID.C.9"]}}
+{"id": "S-ID.C.9", "level": "Standard", "parent": "S-IC.C", "children": [], "connections": {"progress to": [], "progress from": [], "related": ["S-IC.B.6"]}}
+{"id": "S-IC.B", "level": "Cluster", "parent": "", "children": ["S-IC.B.3", "S-IC.B.4", "S-IC.B.5", "S-IC.B.6"], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "F-IF.C.7e", "level": "Sub-standard", "parent": "F-IF.C.7", "children": [], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "F-IF.C.7d", "level": "Sub-standard", "parent": "F-IF.C.7", "children": [], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "F-IF.C.7", "level": "Standard", "parent": "", "children": ["F-IF.C.7e"], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "6.G.A.2", "level": "Standard", "parent": "6.G.A", "children": [], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "6.SP.A.2", "level": "Standard", "parent": "6.SP.A", "children": [], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "6.SP.A", "level": "Cluster", "parent": "6.SP", "children": ["6.SP.A.2"], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "6.SP", "level": "Domain", "parent": "6", "children": ["6.SP.A"], "connections": {"progress to": [], "progress from": [], "related": []}}
+{"id": "6", "level": "Grade", "parent": "", "children": ["6.SP"], "connections": {"progress to": [], "progress from": [], "related": []}}
