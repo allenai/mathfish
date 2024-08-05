@@ -11,7 +11,6 @@ This guide walks through how to run models on the tasks introduced in our paper,
 On Huggingface, we release the following datasets: 
 - [mathfish](https://huggingface.co/datasets/allenai/mathfish): preprocessed math problems from open educational resources (Illustrative Math and Fishtank Learning) labeled with standards. This includes train, dev, and test splits. In our paper, we only use the dev split for evaluating models' performance on assessing math standards alignment. 
 - [mathfish-tasks](https://huggingface.co/datasets/allenai/mathfish-tasks): The dev subset of MathFish transformed into tasks for language models, formatted with prompts. These could be used to replicate our results. 
-- mathfish-images: In MathFish, there are images interweaved with problems which we don't use in the paper, but may facilitate multimodal work for others. **TBD????** 
 - [achieve-the-core](https://huggingface.co/datasets/allenai/achieve-the-core): Math standards, their descriptions, and metadata obtained from Achieve the Core. This includes `domain_groups.json` and `standards.jsonl`. 
 
 On Github, we include the following additional data and output files: 
