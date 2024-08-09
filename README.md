@@ -1,6 +1,6 @@
 # Evaluating Language Model Math Reasoning via Grounding in Educational Curricula
 
-This guide walks through how to run models on the tasks introduced in our paper, **TBD link**. 
+This guide walks through how to run models on the tasks introduced in [our paper](https://huggingface.co/datasets/allenai/mathfish/blob/main/README.md). 
 
 ## Installation
 
